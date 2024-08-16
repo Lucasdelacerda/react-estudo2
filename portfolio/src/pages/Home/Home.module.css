@@ -30,13 +30,19 @@
     border: 0;
     border-radius: 8px;
     cursor: pointer;
+    padding:15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 
-.btn_red{
+.btn_red {
     background-color: var(--red);
     color: var(--white);
 }
 
-.btn_red:hover{
-    background-color:var(--primary)
+.btn_red:hover {
+    background-color: var(--primary)
 }
