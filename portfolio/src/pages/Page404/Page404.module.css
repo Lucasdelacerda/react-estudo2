@@ -1,20 +1,23 @@
-.titulo2{
-  padding-top: 2rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
 }
 
-.textos{
+
+.textos {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.texto_grande, .texto_vermelho{
-  font-size: 300px;
-  color:var(--var);
-  font-weight: bold;
-}
 
-.texto_vermelho{
+.texto_vermelho {
+  font-size: 300px;
+  color: var(--red);
+  font-weight: bold;
   font-size: 1.5rem;
 }
