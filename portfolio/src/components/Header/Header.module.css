@@ -7,6 +7,7 @@
     top: 0;
     display: flex;
     align-items: center;
+    border: 2px solid white;
     justify-content: space-between;
     padding-inline: 50px;
 }
@@ -14,8 +15,11 @@
 .header span {
     font-size: 1.5rem;
     font-weight: bold;
-    text-decoration: none;
     color: white;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .header .btn {
@@ -27,6 +31,10 @@
 
 .header .btn:hover {
     color: var(--red);
+}
+
+.menuButton {
+    display: none;
 }
 
 @media (max-width:768px) {
@@ -71,4 +79,6 @@
     .show {
         width: 100%;
     }
+
+
 }

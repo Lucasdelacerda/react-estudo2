@@ -12,7 +12,7 @@ export default function Header() {
 
     return (
         <header className={styles.header}>
-            <Link to='/'>
+            <Link to='/' className={styles.link}>
                 <span>lucasLacerda.dev</span>
             </Link>
             {/* esse fecha o menu */}
